@@ -1,10 +1,13 @@
 import unittest
 from calculator import *
-
+#lauren was the last to push
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
-    # def test_add(self): # 3 assertions
+    def test_add(self): # 3 assertions
     #     fill in code
+        self.assertEqual(add(5,5), 10)
+        self.assertEqual(add(3, -7), 4)
+        self.assertEqual(add(-3, -6), -9)
 
     # def test_subtract(self): # 3 assertions
     #     fill in code
