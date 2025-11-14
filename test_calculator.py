@@ -49,7 +49,6 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
             log(3, 0)
 
-
     
     ######## Partner 1
     def test_log_invalid_argument(self): # 1 assertion
