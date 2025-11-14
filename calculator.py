@@ -16,7 +16,7 @@ def square_root(a):
         try:
             math.sqrt(a)
         except ValueError:
-            print("Error: You cannot take the square root of a negative number!")
+            return ValueError
     return math.sqrt(a)
 
 def hypotenuse(a, b):
@@ -36,7 +36,7 @@ def div(a, b):
         try:
             b / a
         except ZeroDivisionError:
-            print("Error: You cannot divide by zero!")
+            return ZeroDivisionError
     return b / a
 
 def logarithm(a, b):
@@ -44,7 +44,7 @@ def logarithm(a, b):
         try:
             math.log(b, a)
         except ValueError:
-            print("Error: you cannot take the log of zero or a negative number!")
+            return ValueError
     return math.log(b, a)
 
 def exp(a, b):
