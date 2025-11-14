@@ -15,7 +15,7 @@ def square_root(a):
         try:
             math.sqrt(a)
         except ValueError:
-            return a
+            print("Error: math domain error.")
     return math.sqrt(a)
 
 def hypotenuse(a, b):
@@ -35,7 +35,7 @@ def div(a, b):
         try:
             b / a
         except ZeroDivisionError:
-            return a, b
+            print("Error: Cannot divide by zero.")
     return b / a
 
 def logarithm(a, b):
@@ -43,7 +43,7 @@ def logarithm(a, b):
         try:
             math.log(b, a)
         except ValueError:
-            return a, b
+            print("Error: math domain error.")
     return math.log(b, a)
 
 def exp(a, b):
