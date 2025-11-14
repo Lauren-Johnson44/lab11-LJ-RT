@@ -1,6 +1,11 @@
+# https://github.com/Lauren-Johnson44/lab11-LJ-RT.git
+# Partner 1: Lauren Johnson
+# Partner 2: Re'Niyah Tape
+
+
 import unittest
 from calculator import *
-#lauren was the last to push
+
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
     def test_add(self): # 3 assertions
@@ -15,7 +20,7 @@ class TestCalculator(unittest.TestCase):
 
 
 
-    # Partner 1
+    ######## Partner 1
     def test_multiply(self): # 3 assertions
         self.assertEqual(mul(7, 5), 35)
         self.assertEqual(mul(-3, 8), -24)
