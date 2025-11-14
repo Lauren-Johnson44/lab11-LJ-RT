@@ -1,3 +1,7 @@
+# https://github.com/Lauren-Johnson44/lab11-LJ-RT.git
+# Partner 1: Lauren Johnson
+# Partner 2: Re'Niyah Tape
+
 import unittest
 from calculator import *
 
