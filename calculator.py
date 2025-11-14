@@ -15,7 +15,7 @@ def square_root(a):
         try:
             math.sqrt(a)
         except ValueError:
-            return ValueError
+            return None
     return math.sqrt(a)
 
 def hypotenuse(a, b):
@@ -35,7 +35,7 @@ def div(a, b):
         try:
             b / a
         except ZeroDivisionError:
-            return ZeroDivisionError
+            return None
     return b / a
 
 def logarithm(a, b):
@@ -43,7 +43,7 @@ def logarithm(a, b):
         try:
             math.log(b, a)
         except ValueError:
-            return ValueError
+            return None
     return math.log(b, a)
 
 def exp(a, b):
