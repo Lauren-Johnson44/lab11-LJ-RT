@@ -1,6 +1,6 @@
 import unittest
 from calculator import *
-#merry christmas
+
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
