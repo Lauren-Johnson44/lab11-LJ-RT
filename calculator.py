@@ -8,7 +8,7 @@ calculator.py
 
 One function per operation, in order.
 """
-#santa
+
 import math
 
 def square_root(a):
